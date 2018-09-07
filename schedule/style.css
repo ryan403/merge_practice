@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+table {
+    width: 50% ;
+    margin: auto ;
+}
+
+th,td {
+    padding: 10px 0px 10px ;
+    border-bottom: 1px solid gray ;
+}
+th {
+    background-color: antiquewhite ;                                           
+}
+
+/* 此為A版本(前面append Class名稱後直接改class的樣式 */
+.odd {
+    background-color: white ;
+}
+
+.even {
+    background-color: aquamarine ;
+}
+/* A版本結束 */
+
+/* 以下為正常even odd寫法 B版本 把這個打開即可把A版本append Class名稱那塊拿掉  */
+
+/* 
+tr:nth-child(even) {    
+    background-color: white ;
+}
+
+tr:nth-child(odd) {
+    background-color: aquamarine ;
+}
+*/
+h2{
+    font-size: 20px ;
+}
