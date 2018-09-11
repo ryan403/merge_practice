@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="youtube_player/style.css">
+    <link rel="stylesheet" href="smart_home_light/style.css">
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -40,11 +40,11 @@
             <li class="nav-item">
                 <a class="nav-link" href="simplergb.html">Simple RGB</a>
               </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">YouTube Player <span class="sr-only">(current)</span></a>
-              </li>
             <li class="nav-item">
-                <a class="nav-link" href="smarthomelight.html">Smart Home Light</a>
+                <a class="nav-link" href="youtubeplayer.html">YouTube Player</a>
+              </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Smart Home Light <span class="sr-only">(current)</span></a>
               </li>
             <!--<li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
@@ -61,13 +61,22 @@
     <main role="main">
         <div class="container marketing">
             <hr class="featurette-divider">
-            <h1>YOUTUBE 心情點唱機</h1>
-            <br>
-            <h2 id="title"></h2><!-- 預計擺放歌曲名稱 -->
-            <br>
-            <div id="player"></div><!-- 預計擺放Youtube影片放器 -->
-            <br>
-            <input id="playButton" type="button" value="Drop it">
+            <h1>電燈狀態</h1>
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+            </label>
+            <div class="row">
+            <div class="col-lg-6"><br><br><br><br><br><img></div>
+            <div class="col-lg-6">
+            <iframe
+                allow="microphone;"
+                width="350"
+                height="430"
+                src="https://console.dialogflow.com/api-client/demo/embedded/5a722673-911e-4599-a645-b23650a54dad">
+            </iframe>
+            </div>
+            </div>
             <hr class="featurette-divider">
         </div>
         <!-- FOOTER -->
@@ -86,8 +95,8 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="youtube_player/playList.js"></script>
-    <script src="youtube_player/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src=""></script>
+    <script src="smart_home_light/main.js"></script>
   </body>
 </html>
