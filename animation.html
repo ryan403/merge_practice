@@ -7,11 +7,11 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>智慧家庭</title>
+    <title>影片播放</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="smart_home_light/style.css">
+    <link rel="stylesheet" href="animation/style.css">
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -41,13 +41,13 @@
                 <a class="nav-link" href="simplergb.html">小遊戲</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="youtubeplayer.html">影片播放</a>
-              </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">智慧家庭 <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="youtubeplayer.html">影片播放 </a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="animation.html">動畫</a>
+                <a class="nav-link" href="smarthomelight.html">智慧家庭</a>
+              </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">動畫 <span class="sr-only">(current)</span></a>
               </li>
             <!--<li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
@@ -59,33 +59,19 @@
     </header>
 
     <main role="main">
-        <div class="container marketing">
-            <hr class="featurette-divider">
-            <h1>電燈狀態</h1>
-            <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-            </label>
-            <br><br><br>
-            <div class="row">
-              <div class="col-lg-6"><br><br><br><br><br><img></div>
-              <div class="col-lg-6">
-            <iframe
-                allow="microphone;"
-                width="350"
-                height="430"
-                src="https://console.dialogflow.com/api-client/demo/embedded/5a722673-911e-4599-a645-b23650a54dad">
-            </iframe>
-            </div>
-            </div>
-            <hr class="featurette-divider">
-        </div>
-        <!-- FOOTER -->
-        <footer class="container">
-          <p class="float-right"><a href="#">Back to top</a></p>
-          <p>JAE's &middot; <a href="https://www.instagram.com/jaebyjae/">instagram</a></p>
-        </footer>
-    </main>
+        
+               <div id=mainBG>
+                <div id="sun"></div>
+                <div id="tower"> <!--風車底座-->
+                    <div id="windmill"></div><!--扇葉-->
+                </div>
+                <div id="bird"></div><!--鳥-->
+                <div id="cow"></div><!--牛-->
+                <div id="fence"></div><!--柵欄-->
+              </div>
+            
+        
+      </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -96,8 +82,5 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src=""></script>
-    <script src="smart_home_light/main.js"></script>
-  </body>
+    </body>
 </html>

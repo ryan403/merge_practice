@@ -13,6 +13,7 @@ function getLightSwitchStatus(){
             $("h1").text("電燈狀態："+msg[0].light_switch);
             if(msg[0].light_switch=="開"){
                 $("img").attr("src","smart_home_light/images/pic_bulbon.gif");
+                $("checkbox").css("transform: translateX(26px)");
             }else{
                 $("img").attr("src","smart_home_light/images/pic_bulboff.gif");
             }

@@ -1,0 +1,140 @@
+#mainBG{
+    background-image: url("/animation/images/grass_blue_sky_background.jpg");
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sun{
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 10%;
+    left: 10%;
+    background-color: yellow;
+    transform: translate(-20%, -20%);
+    border-radius: 50%;
+    box-shadow: 3px 3px 25px rgb(240, 224, 9);
+}
+
+#sun:hover{
+    transform: scale(3);
+    transition: 3s ease-in-out;
+}
+
+#tower{
+    background-image: url("/animation/images/lookout_tower.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    width: 256px;    
+    height: 256px;
+    right: 5%;
+    top: 40%;
+    z-index: 1;
+}
+
+#cow{
+    background-image: url("/animation/images/cow.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: block;
+    width: 303px;
+    height: 333px;
+    top: 65%;
+    left: 10%;
+}
+
+#fence{
+    background-image: url("/animation/images/ft3rail.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: block;
+    width: 555px;
+    height: 333px;
+    top: 62%;
+    left: 5%;
+}
+
+#windmill{
+    background-image: url("/animation/images/windmill-clip.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: absolute;
+    display: block;
+    width: 299px;
+    height: 299px;
+    left: 7%;
+    bottom: 25%;
+    transform-origin: 37% 38%;
+    animation: wind_Ani 3s linear infinite;
+}
+
+@-moz-keyframes wind_Ani {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes wind_Ani {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-o-keyframes wind_Ani {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes wind_Ani {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+#bird{
+    background-image: url("/animation/images/bird.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 173px;
+    top: 40%;
+    animation: bird_Ani 10s linear infinite;
+}
+
+@keyframes bird_Ani{
+    0% {
+        transform: translateX(0px) rotateY(0deg);
+    }
+    49% {
+        transform: translateX(90vw) rotateY(0deg);
+    }
+    50% {
+        transform: translateX(90vw) rotateY(180deg);
+    }
+    100% {
+        transform: translateX(0px) rotateY(180deg);
+    }
+    
+}
