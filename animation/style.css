@@ -1,5 +1,5 @@
 #mainBG{
-    background-image: url("/animation/images/grass_blue_sky_background.jpg");
+    background-image: url(animation/images/grass_blue_sky_background.jpg);
     position: absolute;
     display: block;
     width: 100%;
@@ -28,7 +28,7 @@
 }
 
 #tower{
-    background-image: url("/animation/images/lookout_tower.png");
+    background-image: url(animation/images/lookout_tower.png);
     background-repeat: no-repeat;
     position: absolute;
     display: block;
@@ -40,7 +40,7 @@
 }
 
 #cow{
-    background-image: url("/animation/images/cow.png");
+    background-image: url(animation/images/cow.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 #fence{
-    background-image: url("/animation/images/ft3rail.png");
+    background-image: url(animation/images/ft3rail.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -64,7 +64,7 @@
 }
 
 #windmill{
-    background-image: url("/animation/images/windmill-clip.png");
+    background-image: url(animation/images/windmill-clip.png);
     background-repeat: no-repeat;
     background-size: 80%;
     position: absolute;
@@ -111,7 +111,7 @@
 }
 
 #bird{
-    background-image: url("/animation/images/bird.png");
+    background-image: url(animation/images/bird.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
