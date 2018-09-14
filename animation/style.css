@@ -40,7 +40,7 @@
 }
 
 #cow{
-    background-image: url("images/assets/img/cow.png");
+    background-image: url("images/cow.png");
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 #fence{
-    background-image: url("images/img/ft3rail.png");
+    background-image: url("images/ft3rail.png");
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
